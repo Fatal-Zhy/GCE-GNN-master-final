@@ -51,7 +51,7 @@ def main():
     init_seed(opt.seed)
 
     if opt.dataset == 'Beauty':
-        num_node = 11674 # = my_build_graph.py中输出的max(temp)+1
+        num_node = 11674 ## = my_build_graph.py中输出的max(temp)+1
         # opt.n_iter = 1
         # opt.dropout_gcn = 0.4
         # opt.dropout_local = 0.5
